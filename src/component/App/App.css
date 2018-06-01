@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #4E3695;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  text-align: left;
+  width: 500px;
+  margin: auto;
+}
+
+.board-wrapper {
+  margin: 'auto';
+}

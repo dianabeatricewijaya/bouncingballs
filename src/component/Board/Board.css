@@ -1,0 +1,6 @@
+.board{
+    position : relative;
+    margin : auto;
+    background-color: #FAFAFA;
+    border : 2px solid #F2F2F2;
+}
