@@ -95,7 +95,7 @@ class Board extends Component{
 
     speedUp = () => {
         const {speed} = this.state;
-        if(speed<=10){
+        if(speed<=25){
             alert('Cannot speed up more!');
             return;
         }
@@ -105,7 +105,7 @@ class Board extends Component{
 
     speedDown = () => {
         const {speed} = this.state;
-        if(speed>=720){
+        if(speed * 2 >=1800){
             alert('Cannot speed down more!');
             return;
         }
@@ -158,7 +158,7 @@ class Board extends Component{
             width : `${width}px`,
         }
 
-        const children = this.state.balls.map((ball,index)=>{
+        const children = this.state.balls.map((ball)=>{
             return(
                 <Ball
                 key={Math.random()*ballSize}
